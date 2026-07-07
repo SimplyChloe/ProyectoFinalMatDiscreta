@@ -358,11 +358,12 @@ public final class Connection {
             case "guess_passwd": case "ftp_write": case "imap": case "phf":
             case "multihop": case "warezmaster": case "warezclient":
             case "spy": case "xlock": case "xsnoop": case "snmpguess":
-            case "snmpgetattack": case "httptunnel": case "sendmail":
+            case "snmpgetattack": case "sendmail":
             case "named": case "worm":
                 return "r2l";
             case "buffer_overflow": case "loadmodule": case "rootkit":
             case "perl": case "sqlattack": case "xterm": case "ps":
+            case "httptunnel":
                 return "u2r";
             default:
                 return "unknown";
