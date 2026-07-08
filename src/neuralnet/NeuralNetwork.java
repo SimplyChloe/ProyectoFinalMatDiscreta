@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * Red neuronal como composición de {@link Layer} encadenadas: la salida de
  * una capa es la entrada de la siguiente. Matemáticamente, la red completa
- * es una <b>función compuesta</b>:
+ * es una función compuesta:
  * <pre>
  *   red(x) = f_n( f_{n-1}( ... f_1(x) ... ) )
  * </pre>

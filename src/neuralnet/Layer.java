@@ -83,7 +83,7 @@ public final class Layer {
 
     /**
      * Retropropagación estándar: recibe el gradiente de la pérdida
-     * respecto a la salida <b>post-activación</b> de esta capa
+     * respecto a la salida post-activación de esta capa
      * ({@code dL/da}), lo convierte al gradiente respecto a la
      * pre-activación ({@code dL/dz = dL/da * f'(z)}, regla de la cadena),
      * actualiza los pesos y sesgos mediante descenso de gradiente, y

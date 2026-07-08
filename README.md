@@ -100,7 +100,6 @@ Estos números fueron obtenidos ejecutando `Main.java` directamente, con semilla
 | Bayes (Probabilidad) | 0.9690 | 0.6194 | 0.7558 | 0.7721 | 0.9738 | ~85 |
 | Red Neuronal | 0.9674 | 0.6273 | 0.7611 | 0.7758 | 0.9721 | ~75 |
 
-*(El tiempo puede variar unos milisegundos entre ejecuciones por el "warm-up" de la JVM; las métricas de precisión/recall son exactamente reproducibles gracias a la semilla fija.)*
 
 ### Por qué el recall es más bajo de lo que cabría esperar — y por qué eso es informativo
 
