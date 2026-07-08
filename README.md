@@ -14,6 +14,7 @@ El pipeline integrado (**`Main.java`**) entrena los tres modelos con **`data/KDD
 
 ## Estructura del Proyecto
 
+```
 ProyectoFinalMatDiscreta/
 ├── src/
 │   ├── Main.java                 # Punto de entrada: orquesta todo el pipeline
@@ -47,6 +48,7 @@ ProyectoFinalMatDiscreta/
 │   └── KDDTest+.txt             # Dataset de prueba
 ├── out/                          # Bytecode compilado (.class)
 └── README.md                     # Este archivo
+```
 
 ---
 
